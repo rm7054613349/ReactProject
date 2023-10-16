@@ -1,0 +1,652 @@
+
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+  }
+.right
+{
+    overflow-x: hidden;
+    overflow-y: hidden;
+    /* border: 1px solid black; */
+    width:85%;
+    max-height: 100%;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    background-color: #f8ecec;
+    height: 105vh;
+}
+
+.top1
+{
+   /* border: 3px solid black; */
+   height: 7%;
+   display: flex;
+   flex-direction: row;
+   gap: 70%;
+   margin-top: .5rem;
+}
+
+.top2
+{
+    /* border: 3px solid black; */
+    height: 20%;
+    
+    
+}
+
+.top3
+{
+    /* border: 3px solid black; */
+    height: 40%;
+}
+
+.top4
+{  
+    
+    height:30%;
+    margin-top: 1rem;
+    width:96% ;
+    margin-top: .4rem;
+    margin-left: 1.3rem;
+    margin-right: 1rem;
+    background-color: white;
+    border-radius: 1rem;
+
+}
+
+
+
+.shah
+{
+    padding-top: 1.4rem;
+    padding-left: 2rem;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+.icon
+{
+    color:brown;
+}
+
+.SerchIn
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap:.6rem;
+    /* border: 3px solid black; */
+    padding: .5rem;
+    box-sizing: border-box;
+    width: 240%;
+    background-color: white;
+    border-radius: 1rem;
+}
+
+
+.serchBar
+{
+    padding-top: .4rem;
+    padding-bottom:.4rem;
+    padding-right: 5rem;
+}
+
+
+
+.top2
+{
+   display: flex;
+   flex-direction: row;
+  
+   gap: 1.5rem;
+
+   padding-top: .4rem;
+   padding-left: 1.6rem;
+   padding-bottom: 1rem;
+   padding-right: 2rem;
+
+}
+
+
+.earning
+{
+    background-color: white;
+   border-radius: 1rem;
+   width: 25%;
+   height: 100%;
+   /* border: 1px solid black; */
+}
+
+.order
+{
+    background-color: white;
+    height: 100%;
+    border-radius: 1rem;
+    width: 25%;
+    border: 1rem solid black;
+}
+
+
+.balance
+{
+    background-color: white;
+    height: 100%;
+    border-radius: 1rem;
+    width: 25%;
+    border: 1rem solid black;
+
+}
+
+.totalsales
+{
+    background-color: white;
+    height: 100%;
+    width: 25%;
+    border-radius: 1rem;
+    border: 1px solid black;
+}
+
+
+.earning
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 1rem;
+    
+}
+
+.upic
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .1rem;
+}
+
+.up,.per
+{
+  color: green;
+  display: inline;
+}
+
+
+.doller
+{
+    /* border: 1px solid black; */
+    width: 30%;
+    border-radius: 100%;
+    padding: .8rem;
+    box-sizing: border-box;
+    margin-top: 2rem;
+    margin-left: 1.6rem;
+    margin-bottom: 2rem;
+    background-color: rgb(175, 235, 175);
+
+}
+
+
+
+.ic
+{
+    width: 100%;
+    height: 100%;
+}
+
+.Ear
+{
+    color: gray;
+}
+
+.book
+{
+   color: rgb(133, 25, 133);
+}
+
+.Book
+{
+    
+    background-color: rgb(247, 196, 247);
+}
+
+.Ram,.Down
+{
+    color: red;
+}
+
+
+
+.wallet
+{
+    color: blue;
+}
+
+.bag
+{
+    color: red;
+}
+
+.Bag
+{
+    background-color: rgb(248, 215, 215);
+}
+
+
+.top3
+{
+   display: flex;
+   flex-direction: row;
+   gap: 2rem;
+  
+
+  
+
+}
+
+.month
+{
+    /* border: 1px solid black; */
+    width: 70%;
+    height:100%;
+    margin-left: 1.2rem;
+    border-radius: .5rem;
+}
+
+.PiChart
+{
+   
+    width: 25%;
+    height:100%;
+    margin-right: 2rem;
+    background-color:white;
+    display: flex;
+    flex-direction: column;
+    
+    
+    border-radius: 1rem;
+    
+
+}
+
+.circl
+{
+    width: 30%;
+    border-radius: 100%;
+    padding: 1.5rem;
+    box-sizing: border-box;
+    margin-top: 2.5rem;
+    margin-left: 6rem;
+    margin-bottom: 2.5rem;
+    background-color:rgb(247, 242, 242);
+    width: 13vw;
+    height: 27vh; 
+     
+}
+
+.ooo
+{
+    margin-top: .6rem;
+}
+
+.content
+{
+    margin-top: .9rem;
+    margin-left: 1rem;
+    
+}
+
+.prod
+{
+    color:gray ;
+}
+
+.se
+{
+   border-radius: 9rem;
+}
+
+
+.month
+{
+    display:flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+.chartTop
+{
+    display: flex;
+    flex-direction: row;
+    gap: 36rem;
+    margin-top: 1rem;
+}
+.TopHeading
+{
+    padding-left: 1.5rem;
+}
+
+.qantity
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1rem;
+    background-color: white;
+    width: 13%;
+    height: 75%;
+    padding-left: 1rem;
+    border-radius: 2rem;
+}
+
+.topcon
+{
+    color: gray;
+}
+
+
+.barchart
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: 1.3rem;
+    margin-bottom: .4rem;
+    
+    gap: 1.4rem;
+    /* margin-top: 90px; */
+}
+
+.c1
+{
+    /* border: 1px solid black; */
+    height: 10rem;
+    width: 3rem;
+    border-radius: .8rem;
+   
+    background-color: rgb(229, 210, 250);
+}
+
+.c2
+{
+    height: 8rem;
+    width: 3rem;
+    border-radius: .8rem;
+   
+    background-color: rgb(229, 210, 250);
+}
+
+.c3
+{
+    height: 7rem;
+    width: 3rem;
+    border-radius: .8rem;
+   
+    background-color: rgb(229, 210, 250);
+}
+
+.c4
+{
+    height: 11rem;
+    width: 3rem;
+    border-radius: .8rem;
+   
+    background-color: rgb(229, 210, 250);
+}
+
+.c5
+{
+    height: 12rem;
+    width: 3rem;
+    border-radius: .8rem;
+   
+    background-color: rgb(229, 210, 250);
+}
+
+.c6
+{
+    height: 6rem;
+    width: 3rem;
+    border-radius: .8rem;
+   
+    background-color: rgb(229, 210, 250);
+}
+
+.c7
+{
+    height: 10rem;
+    width: 3rem;
+    border-radius: .8rem;
+   
+    background-color: rgb(229, 210, 250);
+}
+
+.c8
+{
+    height: 12rem;
+    width: 3rem;
+    border-radius: .8rem;
+   
+    background-color: rgb(39, 15, 65);
+}
+
+.c9
+{
+    height: 12rem;
+    width: 3rem;
+    border-radius: .8rem;
+   
+    background-color: rgb(229, 210, 250);;
+}
+
+.c10
+{
+    height: 10rem;
+    width: 3rem;
+    border-radius: .8rem;
+   
+    background-color: rgb(229, 210, 250);;
+}
+
+.c11
+{
+    height: 9rem;
+    width: 3rem;
+    border-radius: .8rem;
+   
+    background-color: rgb(229, 210, 250);;
+}
+
+.c12
+{
+    height: 10rem;
+    width: 3rem;
+    border-radius: .8rem;
+   
+    background-color: rgb(229, 210, 250);;
+}
+
+
+
+.B0
+{
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    flex-wrap: wrap;
+
+    gap: .5rem;
+    /* margin-top: 10px; */
+}
+
+
+.bott
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+    gap:57%;
+    margin-top: 1rem;
+    margin-left: 1rem;
+    width: 110%;
+   
+    
+}
+
+.top
+{
+    display: flex;
+    flex-direction: row;
+    gap: 2.5rem;
+    width: 20rem;
+}
+
+.s
+{
+    display: flex;
+    flex-direction: row;
+    gap: .5rem;
+    align-items: center;
+    
+    /* background-color: white; */
+    border-radius: 1rem;
+    align-items: center;
+    padding-left: 1rem;
+  
+    
+
+    
+   
+}
+
+.vs
+{
+  
+    
+    background-color: rgb(245, 242, 237);
+    border-radius: 1rem;
+    align-items: center;
+    border: 1px black;
+    width: 100%;
+
+}
+
+.bbb
+{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+
+    
+    gap: 25%;
+}
+
+/* .product
+{
+    display: flex;
+    flex-direction: row;
+    gap: 250%;
+    margin-left: 20px;
+    margin-top: 20px;
+    width: 30%;
+   
+} */
+.stp
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+
+    gap: 5rem;
+}
+
+.allc
+{
+    /* border: 2px solid black; */
+    display: flex;
+    flex-direction: row;
+    gap: 50rem;
+    /* margin-left: 20px;
+    margin-top: 20px;
+    width: 30%; */
+    margin-left: 2rem; 
+    margin-top: 1rem;
+    color: gray;
+   
+}
+
+.line
+{
+    border: .1rem solid rgb(209, 204, 204);
+    height: 0px;
+    width:96% ;
+    margin-top: .3rem;
+    margin-left: 2rem;
+    
+}
+
+.bb
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 39rem;
+    margin-left: 1.5rem;
+    margin-top: .5rem;
+}
+
+.aaa
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 4rem;
+}
+
+.ab
+{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: .5rem;
+            
+}
+
+.d
+{
+    display: inline;
+}
+
+.yy
+{
+    color: gray;
+}
+
+.rr
+{
+    width: 30px;
+    height: 30px;
+}
+
+
+
+@media(max-width:998px)
+{
+    .right
+    {
+        font-size:55%;
+    }
+}
+
+@media(max-width:768px)
+{
+    .right
+    {
+        font-size:40%;
+    }
+}

@@ -1,0 +1,202 @@
+* {
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    overflow-x: hidden;
+    overflow-y: hidden;
+  }
+  
+
+
+.left
+{
+    /* border: 1px solid black; */
+    width:15%;
+    background-color: rgb(16, 16, 61);
+    display: flex;
+    
+    flex-direction: column;
+    height: 105vh;
+}
+
+.Dash_main
+{
+    /* border:5px solid black ; */
+    height: 15%;
+    padding-top:3rem;
+    padding-left:1.5rem;
+   padding-bottom: 2rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;  
+    gap: .6rem;
+    height: 10%;
+}
+
+.Dash
+{ 
+    font-size: 1.5rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: white;
+}
+
+.setting
+{
+    width:2rem;
+    height: 2rem;
+    color: white;
+} 
+
+
+.Dash_Under
+{
+    padding-top:3rem;
+    padding-left:1.5rem;
+    box-sizing: border-box;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 2rem;
+    height: 76%;
+    /* border: 5px solid black; */
+   
+}
+
+.a
+{
+    background-color: rgb(149, 158, 167);
+    border-radius: 10px;
+    width: 90%;
+    height: 7%;
+    align-items: center;
+    padding-left: 1rem;
+    box-sizing: border-box;
+}
+
+.a,.b,.c,.d,.e,.f
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1.5rem;
+    align-items: center;
+}
+
+
+.q
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 5rem;
+    align-items: center;
+}
+
+.r
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4rem;
+    align-items: center;
+}
+
+.s
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 8.2rem;
+    align-items: center;
+}
+
+.t
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 4.5rem;
+    align-items: center;
+}
+
+.u
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 6rem;
+    align-items: center;
+}
+
+
+.Dash_Bottom
+{
+   height: 20%;
+   /* border: 5px solid blue; */
+   /* padding-top: 30px;
+   padding-left: 20px; */
+   /* margin-left: 1px; */
+
+   margin-bottom: 1rem;
+   margin-left: 1rem;
+}
+
+
+.bottom
+{
+    display: flex;
+    flex-direction: row;
+    
+    gap: 3rem;
+    background-color: rgb(149, 158, 167);
+    width: 95%;
+    height: 35%;
+    padding-top: .5rem;
+    padding-right: .5rem;
+    border-radius: .5rem;
+    color: rgb(1, 5, 8);
+    align-items: center;
+    padding-bottom: 1rem;
+    box-sizing: border-box;
+    
+
+}
+
+.fi
+{
+    width: 40%;
+    height: 90%;
+}
+
+.co
+{
+    display: flex;
+    flex-direction: row;
+    gap: .3rem;
+    align-items: center;
+}
+
+/* pre
+{
+    font-size: 30px;
+} */
+
+
+@media(max-width:998px)
+{
+    .left
+    {
+        font-size:55%;
+    }
+}
+
+@media(max-width:768px)
+{
+    .left
+    {
+        font-size:45%;
+    }
+}
+
